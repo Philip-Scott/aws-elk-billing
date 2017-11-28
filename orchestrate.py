@@ -42,8 +42,3 @@ if __name__ == '__main__':
 
     # delete the intermediate files
     tools.delete_csv_json_files()
-
-    # /sbin/init is not working so used this loop to keep the docker up, Have to change it!
-    while(True):
-        pass
-
