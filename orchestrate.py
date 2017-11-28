@@ -45,5 +45,6 @@ if __name__ == '__main__':
 
     # /sbin/init is not working so used this loop to keep the docker up, Have to change it!
     while(True):
+        time.sleep(50000);
         pass
 
